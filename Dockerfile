@@ -1,4 +1,4 @@
-FROM sonarsource/sonar-scanner-cli:5.0.1
+FROM common-dockerhub-remote.jfrog.teliacompany.io/sonarsource/sonar-scanner-cli:5.0.1
 
 LABEL version="2.0.1" \
       repository="https://github.com/sonarsource/sonarqube-scan-action" \
